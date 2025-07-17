@@ -8,7 +8,7 @@ export default defineConfig({
       devSourcemap: false
     },
     server: {
-      host: 0.0.0.0,
+      host: true,
       port: 5173,
       strictPort: true,
       allowedHosts: [
